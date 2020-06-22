@@ -29,8 +29,9 @@ if(nameInput.value === '' || emailInput.value === '') {
   userList.appendChild(li);
 
   // Clear fields
-
+//nameinput.value= ' ';
  nameInput.value = '';
-emailInput.value = '';
+//emailinput.value='';
+ emailInput.value = '';
   }
 }
